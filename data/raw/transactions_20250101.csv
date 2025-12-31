@@ -1,0 +1,9 @@
+transaction_id,sku_id,event_type,quantity,timestamp,system
+T001,SKU003,order,1,2025-01-01 09:10:00,website
+T002,SKU001,order,1,2025-01-01 10:15:00,website
+T002,SKU001,cancel,1,2025-01-01 10:45:00,website
+T001,SKU003,order,1,2025-01-01 13:45:00,warehouse
+T003,SKU004,order,2,2025-01-01 15:35:00,website
+T005,SKU004,order,2,2025-01-01 15:45:00,warehouse
+T006,SKU005,return,1,2025-01-01 16:00:00,warehouse
+T006,SKU005,return,1,2025-01-01 16:20:00,website
