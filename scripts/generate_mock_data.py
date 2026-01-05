@@ -10,7 +10,7 @@ transactions = [
         "sku_id": "SKU003",
         "event_type": "order",
         "quantity": 1,
-        "timestamp": datetime(2025, 1, 1, 9,10),
+        "timestamp": datetime(2026, 1, 1, 9,10),
         "system": "website"
     },
     {
@@ -18,7 +18,7 @@ transactions = [
         "sku_id": "SKU001",
         "event_type": "order",
         "quantity": 1,
-        "timestamp": datetime(2025, 1, 1, 10, 15),
+        "timestamp": datetime(2026, 1, 1, 10, 15),
         "system": "website"
     },
     {
@@ -26,7 +26,7 @@ transactions = [
         "sku_id": "SKU001",
         "event_type": "cancel",
         "quantity": 1,
-        "timestamp": datetime(2025, 1, 1, 10, 45),
+        "timestamp": datetime(2026, 1, 1, 10, 45),
         "system": "website"
     },
      
@@ -35,7 +35,7 @@ transactions = [
         "sku_id": "SKU003",
         "event_type": "order",
         "quantity": 1,
-        "timestamp": datetime(2025, 1, 1, 13,45),
+        "timestamp": datetime(2026, 1, 1, 13,45),
         "system": "warehouse"
     },
     {
@@ -43,7 +43,7 @@ transactions = [
         "sku_id": "SKU004",
         "event_type": "order",
         "quantity": 2,
-        "timestamp": datetime(2025, 1, 1, 15,35),
+        "timestamp": datetime(2026, 1, 1, 15,35),
         "system": "website"
     },
     {
@@ -51,7 +51,7 @@ transactions = [
         "sku_id": "SKU004",
         "event_type": "order",
         "quantity": 2,
-        "timestamp": datetime(2025, 1, 1, 15,45),
+        "timestamp": datetime(2026, 1, 1, 15,45),
         "system": "warehouse"
     },
     {
@@ -59,7 +59,7 @@ transactions = [
         "sku_id": "SKU005",
         "event_type": "return",
         "quantity": 1,
-        "timestamp": datetime(2025, 1, 1, 16,00),
+        "timestamp": datetime(2026, 1, 1, 16,00),
         "system": "warehouse"
     },
     {
@@ -67,7 +67,7 @@ transactions = [
         "sku_id": "SKU005",
         "event_type": "return",
         "quantity": 1,
-        "timestamp": datetime(2025, 1, 1, 16,20),
+        "timestamp": datetime(2026, 1, 1, 16,20),
         "system": "website"
     }
 
@@ -76,6 +76,6 @@ transactions = [
 
 df = pd.DataFrame(transactions)
 print(df)
-df.to_csv("data/raw/transactions_20250101.csv", index=False)
+df.to_csv("data/raw/transactions_20260101.csv", index=False)
 
 
