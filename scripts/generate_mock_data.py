@@ -2,7 +2,8 @@ import pandas as pd
 from datetime import datetime
 
 #sku_id is the specific product id.
-#transaction_id is the specific order on a product, repeated across both systems and returns. 
+# transaction_id represents a single business event (order, cancel, return)
+# and may appear in multiple systems (website, warehouse).
 transactions = [
     {
         "transaction_id": "T001",
@@ -46,7 +47,7 @@ transactions = [
         "system": "website"
     },
     {
-        "transaction_id": "T005",
+        "transaction_id": "T003",
         "sku_id": "SKU004",
         "event_type": "order",
         "quantity": 2,
@@ -54,7 +55,7 @@ transactions = [
         "system": "warehouse"
     },
     {
-        "transaction_id": "T006",
+        "transaction_id": "T004",
         "sku_id": "SKU005",
         "event_type": "return",
         "quantity": 1,
@@ -62,7 +63,7 @@ transactions = [
         "system": "warehouse"
     },
     {
-        "transaction_id": "T006",
+        "transaction_id": "T004",
         "sku_id": "SKU005",
         "event_type": "return",
         "quantity": 1,
