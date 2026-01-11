@@ -30,3 +30,4 @@ joined["flag"] = np.select(conditions, choices, default="OK")
 
 print(joined)
 
+joined.to_csv("data/processed/reconciliation_20260101.csv", index = False)

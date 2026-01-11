@@ -1,7 +1,7 @@
 import pandas as pd
 data = {
-  "sku_id": ["SKU001", "SKU002", "SKU003","SKU004","SKU005"],
-  "website_quantity": [10, 10, 10,10,10]
+  "sku_id": ["SKU001", "SKU002", "SKU003","SKU004","SKU005","SKU006"],
+  "website_quantity": [10, 10, 10,10,10,10]
 }
 
 df0 = pd.DataFrame(data)

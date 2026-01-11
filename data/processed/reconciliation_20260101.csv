@@ -1,0 +1,7 @@
+sku_id,warehouse_quantity,website_quantity,difference,flag
+SKU001,9,10,-1,WEBSITE_HIGH
+SKU002,10,8,2,WAREHOUSE_HIGH
+SKU003,9,9,0,OK
+SKU004,8,8,0,OK
+SKU005,11,11,0,OK
+SKU006,9,10,-1,WEBSITE_HIGH

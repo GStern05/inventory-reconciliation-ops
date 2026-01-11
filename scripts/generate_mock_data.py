@@ -22,6 +22,14 @@ transactions = [
         "system": "website"
     },
     {
+    "transaction_id": "T002",
+    "sku_id": "SKU001",
+    "event_type": "order",
+    "quantity": 1,
+    "timestamp": datetime(2026, 1, 1, 23, 10),
+    "system": "warehouse"
+},
+    {
         "transaction_id": "T002",
         "sku_id": "SKU001",
         "event_type": "cancel",
@@ -29,7 +37,14 @@ transactions = [
         "timestamp": datetime(2026, 1, 1, 10, 45),
         "system": "website"
     },
-     
+     {
+    "transaction_id": "T005",
+    "sku_id": "SKU002",
+    "event_type": "order",
+    "quantity": 2,
+    "timestamp": datetime(2026, 1, 1, 18, 10),
+    "system": "website"
+},
     {
         "transaction_id": "T001",
         "sku_id": "SKU003",
@@ -69,7 +84,15 @@ transactions = [
         "quantity": 1,
         "timestamp": datetime(2026, 1, 1, 16,20),
         "system": "website"
-    }
+    },
+    {
+    "transaction_id": "T006",
+    "sku_id": "SKU006",
+    "event_type": "adjustment",
+    "quantity": 1,
+    "timestamp": datetime(2026, 1, 1, 19, 30),
+    "system": "warehouse"
+},
 
 
 ]
